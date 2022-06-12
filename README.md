@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/annaindistress/frontend-mentor-art-gallery-website)
-- [Live Site URL](https://annaindistress.github.io/frontend-mentor-art-gallery-website/)
+- [Solution URL](https://github.com/annaindistress/frontend-mentor-typemaster-pre-launch-landing-page)
+- [Live Site URL](https://annaindistress.github.io/frontend-mentor-typemaster-pre-launch-landing-page/)
 
 ## My process
 
