@@ -1,0 +1,28 @@
+.button
+    display inline-block
+    padding 11px 14px
+    font-weight 700
+    text-transform uppercase
+    text-decoration none
+    border-radius 8px
+
+    &--light
+        color color-secondary-black
+        background-color color-secondary-grey-light
+
+        &:hover,
+        &:focus
+            color color-secondary-white
+            background-color color-secondary-black
+
+    &--dark
+        color color-secondary-white
+        background-color color-primary
+
+        &:hover,
+        &:focus
+            background-color color-primary-light
+
+@media (min-width: 768px)
+    .button
+        padding 16px 26px

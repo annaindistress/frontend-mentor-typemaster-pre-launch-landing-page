@@ -1,0 +1,76 @@
+.advantages
+    margin 0 24px 96px
+
+    &__list
+        display grid
+        gap 64px
+        padding 0
+        list-style none
+
+    &__item
+        &::before
+            content ""
+            position relative
+            left 50%
+            display block
+            width 65px
+            height 65px
+            margin-bottom 48px
+            background-color color-primary
+            background-repeat no-repeat
+            background-position center
+            border-radius 16px
+            transform translateX(-50%)
+
+        &--compatibility::before
+            background-image url('../images/shared/icon-compatible.svg')
+
+        &--bluetooth::before
+            background-image url('../images/shared/icon-bluetooth.svg')
+
+        &--battery::before
+            background-image url('../images/shared/icon-battery.svg')
+
+        &--rgb::before
+            background-image url('../images/shared/icon-light.svg')
+
+    &__title
+        margin 0 0 24px
+        font-weight 900
+        font-size 24px
+        line-height 1.17
+        text-transform uppercase
+        text-align center
+        color color-secondary-black
+
+    &__text
+        margin 0
+        text-align center
+
+@media (min-width: 768px)
+    .advantages
+        margin-bottom 128px
+
+        &__list
+            grid-template-columns repeat(2, 1fr)
+            gap 72px 69px
+
+        &__item::before
+            left 0
+            margin-bottom 40px
+            transform translateX(0)
+
+        &__title
+            text-align left
+
+        &__text
+            text-align left
+
+@media (min-width: 1200px)
+    .advantages
+        &__list
+            grid-template-columns repeat(4, 1fr)
+            gap 30px
+
+        &__item::before
+            margin-bottom 48px
